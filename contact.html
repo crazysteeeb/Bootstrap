@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
+
+
 <body>
+    <header>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+    </header>
+
+    <form class="container">
+        <div class="input-group">
+            <span class="input-group-text">First name</span>
+            <input type="text" aria-label="First name" class="form-control" required>
+            <span class="input-group-text">Last name</span>
+            <input type="text" aria-label="Last name" class="form-control" required>
+        </div>
     
+        <div class="input-group">
+            <span class="input-group-text">Email</span>
+            <input type="email" aria-label="First name" class="form-control" required>
+        </div>
+    
+    
+        <input type="submit" name="submit" id="submit" style="float: right;">
+    
+    </form>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
